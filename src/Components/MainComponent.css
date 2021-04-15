@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary:rgb(11, 13, 20);
+    --secondary:#f8f8f8;
+    --third:teal;
+    --fourth: grey;
+    --fifth:rgb(9, 78, 35);
+    --first : rgba(0,0,0,0.8);
+    --second : rgba(175, 172, 172, 0.8);
+}
