@@ -15,6 +15,7 @@ import HomeIcon from '@material-ui/icons/Home';
 import CollectionsBookmarkIcon from '@material-ui/icons/CollectionsBookmark';
 import EventIcon from '@material-ui/icons/Event';
 import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
+import './Navbar.css'
 const useStyles = makeStyles((theme) => ({
   grow: {
     flexGrow: 1,
@@ -191,7 +192,7 @@ export default function PrimarySearchAppBar() {
   );
 
   return (
-    <div className={classes.grow}>
+    <div className={classes.grow +" navbar-container"}>
       <AppBar position="static" className={classes.grow1}>
         <Toolbar>
           <Link to="/">

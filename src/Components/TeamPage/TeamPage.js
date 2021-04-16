@@ -1,5 +1,6 @@
 import React from 'react'
 import {} from 'react-icons'
+import { MemberData } from './MemberData';
 import './TeamPage.css'
 
 class TeamPage extends React.Component{
@@ -8,97 +9,7 @@ class TeamPage extends React.Component{
         super();
         this.state = {
             initial:'none',
-            membersData:[
-                {
-                    name:"Shryiansh Aggarwal",
-                    designation:"CEO",
-                    social:[
-                        {
-                            name:'linkedin',
-                            link:'https://www.youtube.com',
-                        },
-                        {
-                            name:'instagram',
-                            link:'https://www.youtube.com',
-                        },
-                        {
-                            name:'twitter',
-                            link:'https://www.youtube.com',
-                        },
-                        {
-                            name:'envelope',
-                            link:'https://www.youtube.com'
-                        }
-                    ]
-                },
-                {
-                    name:"Shryiansh Aggarwal",
-                    designation:"CEO",
-                    social:[
-                        {
-                            name:'linkedin',
-                            link:'https://www.youtube.com',
-                        },
-                        {
-                            name:'instagram',
-                            link:'https://www.youtube.com',
-                        },
-                        {
-                            name:'twitter',
-                            link:'https://www.youtube.com',
-                        },
-                        {
-                            name:'envelope',
-                            link:'https://www.youtube.com'
-                        }
-                    ]
-                },
-                {
-                    name:"Shryiansh Aggarwal",
-                    designation:"CEO",
-                    social:[
-                        {
-                            name:'linkedin',
-                            link:'https://www.youtube.com',
-                        },
-                        {
-                            name:'instagram',
-                            link:'https://www.youtube.com',
-                        },
-                        {
-                            name:'twitter',
-                            link:'https://www.youtube.com',
-                        },
-                        {
-                            name:'envelope',
-                            link:'https://www.youtube.com'
-                        }
-                    ]
-                },
-                {
-                    name:"Shryiansh Aggarwal",
-                    designation:"CEO",
-                    social:[
-                        {
-                            name:'linkedin',
-                            link:'https://www.youtube.com',
-                        },
-                        {
-                            name:'instagram',
-                            link:'https://www.youtube.com',
-                        },
-                        {
-                            name:'twitter',
-                            link:'https://www.youtube.com',
-                        },
-                        {
-                            name:'envelope',
-                            link:'https://www.youtube.com'
-                        }
-                    ]
-                },
-
-            ]
+            membersData:MemberData
         }
     }
     render(){
@@ -134,6 +45,9 @@ class TeamPage extends React.Component{
                         <p className="member-desig">
                             {member.designation}
                         </p>
+                        <p className="member-about">
+                            {member.about}
+                        </p>
                         <SocialHandles {...member} />
                     </div>
                 </div>
@@ -148,7 +62,7 @@ class TeamPage extends React.Component{
                 <div className="team-container-header">
                     <div className="team-header-left">
                         <h1 className="header-heading">
-                            One Team One Dream
+                            One Team <span className="third">One Dream</span>
                         </h1>
                         <p className="header-subheading">
                             The Core of Sapphire lies here
