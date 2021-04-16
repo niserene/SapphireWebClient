@@ -1,6 +1,7 @@
 import React from 'react'
 import ContactUs from '../ContactUs/ContactUs';
 import './Footer.css'
+import FooterContainer from './FooterContainer';
 
 class Footer extends React.Component{
 
@@ -13,10 +14,11 @@ class Footer extends React.Component{
     render(){
         return(
             <div className="footer">
+                
                 <ContactUs/>
-                <div className="footer-container">
-                    
-                </div>
+
+                <FooterContainer/>
+            
             </div>
         )
     }
