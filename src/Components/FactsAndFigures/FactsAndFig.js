@@ -24,11 +24,11 @@ function FactsAndFig(props) {
             </div>
             <div className="facts-container-main">
                 <div className="facts-card bg1">
-                    <h1>+50</h1>
+                    <h1>30+</h1>
                     <p>Events</p>
                 </div>
                 <div className="facts-card bg2">
-                    <h1>1000+</h1>
+                    <h1>2500+</h1>
                     <p>Participants</p>
                 </div>
                 <div className="facts-card bg3">
@@ -36,16 +36,16 @@ function FactsAndFig(props) {
                     <p>Active Members</p>
                 </div>
                 <div className="facts-card bg2">
-                    <h1>+50</h1>
-                    <p>Events</p>
+                    <h1>tier-II</h1>
+                    <p>Organisation</p>
                 </div>
                 <div className="facts-card bg1">
-                    <h1>1000+</h1>
-                    <p>Participants</p>
+                    <h1>20+</h1>
+                    <p>Sponsors</p>
                 </div>
                 <div className="facts-card bg3">
-                    <h1>150+</h1>
-                    <p>Active Members</p>
+                    <h1>+MORE</h1>
+                    <p>details</p>
                 </div>
             </div>
         </div>
