@@ -30,7 +30,7 @@ class FooterContainer extends React.Component {
                                 </a>
                             </li>
                             <li class="footer-item-unit">
-                                <a href="#phone">
+                                <a href="#call">
                                     <i class="fa fa-phone footer-icon"></i>
                                     <p>
                                     +919876543210

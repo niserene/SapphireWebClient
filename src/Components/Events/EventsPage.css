@@ -54,3 +54,24 @@
     font-size: 1.2em;
     color: var(--fourth);
 }
+
+@media screen and (max-width:960px){
+    .event-page-section{
+        flex-direction: column;
+    }
+    .event-page-section-header{
+        width: 100%;
+    }
+    .event-page-section-img{
+        width: 80%;
+        margin-bottom: 3em;
+        flex: 1;
+    }
+    .event-card-container{
+        padding:0;
+        padding-top: 2em;
+    }
+    .event-page-section-header-heading{
+        font-size: 2.5em;
+    }
+}
