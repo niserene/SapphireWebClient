@@ -1,5 +1,6 @@
 import React from 'react'
 import {} from 'react-icons'
+import MemberCard from './MemberCard';
 import { MemberData } from './MemberData';
 import './TeamPage.css'
 
@@ -13,48 +14,8 @@ class TeamPage extends React.Component{
         }
     }
     render(){
-        const SocialIcon = (item)=>{
-            return(
-                <a href={item.link} className="social-icon">
-                    <i className={`fa fa-${item.name}`}></i>
-                </a>
-            )
-        }
-        const SocialHandles = (member) =>{
-    
-            const handlesList = member.social.map( item =>{
-                return <SocialIcon {...item} />
-            })
-            return(
-                <div className="social-handles">
-                    {handlesList}
-                </div>
-            )
-        }
-        const TeamMemberCard = (member)=>{
-            return(
-                <div className="team-member-card">
-                    <div className="member-card-img">
-                        <img src="https://res.cloudinary.com/nishantdev/image/upload/v1618469636/undraw_male_avatar_323b_xu7f5q.svg" alt="pic" />
-                    </div>
-
-                    <div className="member-info">
-                        <h3 className="member-name">
-                            {member.name}
-                        </h3>
-                        <p className="member-desig">
-                            {member.designation}
-                        </p>
-                        <p className="member-about">
-                            {member.about}
-                        </p>
-                        <SocialHandles {...member} />
-                    </div>
-                </div>
-            )
-        }
         const TeamMemberCardList = this.state.membersData.map( member=>{
-            return <TeamMemberCard {...member} />
+            return <MemberCard {...member} />
         })
 
         return (
