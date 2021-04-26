@@ -3,7 +3,7 @@
     padding: 0;
     scroll-behavior: smooth;
     max-width: 100vw;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
 }
 
 :root{
@@ -15,7 +15,7 @@
     --sixth:rgb(216, 24, 88);
     --seven:rgb(11, 88, 11);
     --first : rgba(0,0,0,0.8);
-    --second : rgba(175, 172, 172, 0.8);
+    --second : rgba(0,0,0,0.4);
 }
 html {
   scroll-behavior: smooth;

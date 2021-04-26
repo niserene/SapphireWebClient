@@ -26,7 +26,10 @@ class TeamPage extends React.Component{
                             One Team <span className="third">One Dream</span>
                         </h1>
                         <p className="header-subheading">
-                            The Core of Sapphire lies here
+                            The Core of Sapphire team
+                            <br/>
+                            As our tagline states , 
+                            sapphire is a team of creative geeks
                         </p>
                     </div>
                     <div className="team-header-right">

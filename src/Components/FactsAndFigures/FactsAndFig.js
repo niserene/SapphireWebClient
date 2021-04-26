@@ -6,12 +6,14 @@ function FactsAndFig(props) {
     return (
 
         <div className="facts-container">
+            
             <div className="facts-container-header">
                 <h1 className="facts-container-heading">
                     <span className="third">Facts </span> 
                     <span className="secondary"> & </span>
                     <span className="sixth"> Figures </span>
                 </h1>
+
                 <p className="facts-container-info">
                     Holding a tier 2 tag sapphire is well
                     known team for its efficient management 

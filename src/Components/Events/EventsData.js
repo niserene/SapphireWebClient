@@ -12,10 +12,8 @@ export const EventData = [
     },
     {
         name:"Beginners Step in Machine Learning",
-        info:`A live session on Machine learnig by Anuj Garg(Founder @code for cause)
-        adsfa
-        asdfasdf
-        asdfasdf asdfas adsfa asdfa asdf aasdf asdf adsf asdf asdf asdf asdfa dsfadf adsfa adfasd asdfa sdfasd fadsf adsf asdfa dsfasdf asdfasdf asdf asd fas dfa sdfasdf adsf asdf adsf adsf `,
+        info:`A live session on Machine learning, project based learning on the topics like Image processing
+              and opevcv especially for beginners who like to step in ml world`,
         category:"Technical/ML",
         timing:"9Am |29-Apr-2021",
         imgUrl:"https://res.cloudinary.com/nishantdev/image/upload/v1618844989/EVENT_POSTER_1_ytumq8.jpg",

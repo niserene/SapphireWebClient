@@ -56,20 +56,23 @@
     align-items: center;
 }
 .event-card-heading{
-    color: var(--fifth);
+    font-size: 1.8em;
+    color: var(--secondary);
     text-align: center;
     margin: 1em 0;
     border-bottom: 1px solid var(--fourth);
 }
 .event-card-info{
     color: var(--fourth);
-    font-size: 0.9em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1em;
     text-align: center;
 }
 .event-card-detail{
     display: flex;
     flex-direction: row;
-    color: var(--secondary);
+    color: var(--third);
     justify-content: space-between;
     margin: 1em 0;
 }
